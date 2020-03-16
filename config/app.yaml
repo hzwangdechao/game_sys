@@ -1,0 +1,21 @@
+database:
+  driverName: mysql
+  host: localhost
+  port: 3306
+  username: wdc
+  password: 123456
+  charset: utf8
+
+redis:
+  addr: localhost:6379
+  password: 123456
+  db: 0
+
+
+server:
+  port: 8080
+
+log:
+  path: logs
+  filename: server.log
+  level: 1
